@@ -44,7 +44,7 @@ User passwords are securely stored in the database using encryption (e.g., bcryp
 
 ## Deployment
 
-The Authentication app is deployed and accessible at [Deployment Link](https://placememt.onrender.com/). Please visit the deployment link to explore the application.
+The Authentication app is deployed and accessible at [Deployment Link](https://authentication-sample-app.onrender.com). Please visit the deployment link to explore the application.
 
 ## Support
 
