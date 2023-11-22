@@ -1,0 +1,24 @@
+#hometown-container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    /* Set your preferred font size */
+    margin: 0;
+}
+
+a {
+    color: #007bff;
+    /* Set your preferred link color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    /* Add a smooth transition effect */
+}
+
+a:hover {
+    color: #0056b3;
+    /* Set your preferred link color on hover */
+}

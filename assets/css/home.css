@@ -1,0 +1,27 @@
+#home-btn {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    /* Set your preferred background color */
+    border: 2px solid #007bff;
+    /* Set your preferred border color */
+    border-radius: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    /* Set your preferred link color */
+    font-size: 16px;
+    /* Set your preferred font size */
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Smooth transition for color change */
+}
+
+a:hover {
+    background-color: #007bff;
+    /* Set your preferred background color on hover */
+    color: #fff;
+    /* Set your preferred text color on hover */
+}

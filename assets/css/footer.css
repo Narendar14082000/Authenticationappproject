@@ -1,0 +1,27 @@
+#footer-container {
+    background-color: #333;
+    /* Set your preferred background color */
+    color: #fff;
+    /* Set your preferred text color */
+    padding: 20px;
+    text-align: center;
+}
+
+#footer-container h2 {
+    margin: 10px 0;
+    font-size: 16px;
+    /* Set your preferred font size */
+}
+
+#footer-container a {
+    color: #ffd700;
+    /* Set your preferred link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+    /* Add a smooth transition effect */
+}
+
+#footer-container a:hover {
+    color: #fff;
+    /* Set your preferred link color on hover */
+}
