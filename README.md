@@ -42,13 +42,12 @@ User passwords are securely stored in the database using encryption (e.g., bcryp
 - Access `google-login.ejs`.
 - Implement Google OAuth for authentication.
 
-**9. Forgot Password (Bonus):**
+## Deployment
 
-- Access `forgot-password.ejs`.
-- Option to generate a random password and send it via email.
-- Alternatively, send a reset password link with an expiration time.
+The Authentication app is deployed and accessible at [Deployment Link](https://placememt.onrender.com/). Please visit the deployment link to explore the application.
 
-**Note:**
+## Support
 
-- Ensure the server is running and connected to the database.
-- Update configuration files with your credentials.
+For any issues, contact me throough mail:
+
+- [Narendar](mailto:narendarreddypaindla@gmail.com)
