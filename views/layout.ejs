@@ -32,24 +32,24 @@
 
 
             <script>
-        <% if (flash.success && flash.success.length > 0) { %>
-                    new Noty({
-                        theme: 'relax', // or relax
-                        text: "<%= flash.success %>", // [string|html] can be HTML or STRING
-                        type: 'success', // success, error, warning, information, notification
-                        layout: 'topRight',
-                        timeout: 2000
-                    }).show();
-        <% } %>
-        <% if (flash.error && flash.error.length > 0) { %>
-                    new Noty({
-                        layout: 'topRight',
-                        theme: 'relax', // or relax
-                        type: 'error', // success, error, warning, information, notification
-                        text: '<%= flash.error %>', // [string|html] can be HTML or STRING
-                        timeout: 5000
-                    }).show();
-        <% } %>
+                <% if (flash.success && flash.success.length > 0) { %>
+                new Noty({
+                    theme: 'relax', // or relax
+                    text: "<%= flash.success %>", // [string|html] can be HTML or STRING
+                    type: 'success', // success, error, warning, information, notification
+                    layout: 'topRight',
+                    timeout: 2000
+                }).show();
+                <% } %>
+                <% if (flash.error && flash.error.length > 0) { %>
+                new Noty({
+                    layout: 'topRight',
+                    theme: 'relax', // or relax
+                    type: 'error', // success, error, warning, information, notification
+                    text: '<%= flash.error %>', // [string|html] can be HTML or STRING
+                    timeout: 5000
+                }).show();
+                <% } %>
             </script>
 </body>
 
